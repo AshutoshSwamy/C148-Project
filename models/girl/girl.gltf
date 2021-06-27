@@ -1,0 +1,158 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 241518,
+      "max": [
+        40264.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "buffer-0-group-0-mesh-0-indices",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 40265,
+      "max": [
+        -9.755248069763184,
+        26.399709701538086,
+        10.598919868469238
+      ],
+      "min": [
+        -22.060400009155273,
+        -20.253427505493164,
+        -3.2839479446411133
+      ],
+      "name": "buffer-0-group-0-mesh-0-position",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 483180,
+      "componentType": 5126,
+      "count": 40265,
+      "max": [
+        0.9999986290931702,
+        0.9999906420707703,
+        0.9999940395355225
+      ],
+      "min": [
+        -0.9999552369117737,
+        -0.9999134540557861,
+        -0.9999960064888
+      ],
+      "name": "buffer-0-group-0-mesh-0-normal",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 40265,
+      "max": [
+        0.9450979828834534,
+        0.9960780143737793,
+        0.9960780143737793,
+        1.0
+      ],
+      "min": [
+        0.09803900122642517,
+        0.08627499639987946,
+        0.06666699796915054,
+        1.0
+      ],
+      "name": "buffer-0-group-0-mesh-0-color",
+      "type": "VEC4"
+    }
+  ],
+  "asset": {
+    "generator": "Obj2GltfConverter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 483036,
+      "byteOffset": 0,
+      "name": "buffer-0-bufferview-ushort",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 966360,
+      "byteOffset": 483036,
+      "byteStride": 12,
+      "name": "buffer-0-bufferview-vec3",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 644240,
+      "byteOffset": 1449408,
+      "byteStride": 16,
+      "name": "buffer-0-bufferview-vec4",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2093648,
+      "name": "buffer-0",
+      "uri": "export_12thrumeshlab.bin"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9699476628648295
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "buffer-0-mesh-0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "COLOR_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "node-0"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "scene-0",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
